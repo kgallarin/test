@@ -5,7 +5,7 @@ import * as actions from "actions";
 class Home extends Component {
   state = {};
   render() {
-    return <p>Hello World!</p>;
+    return <p>Hello World! hook</p>;
   }
 }
 
