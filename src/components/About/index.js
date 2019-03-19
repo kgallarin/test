@@ -3,13 +3,13 @@ import { connect } from "react-redux";
 import * as actions from "actions";
 import { Link } from "react-router-dom";
 
-class Home extends Component {
+class About extends Component {
   state = {};
   render() {
     return (
       <div>
-        <p>Hello World! hook</p>
-        <Link to="/second-page">About</Link>
+        <p>Hello World! I am about</p>
+        <Link to="/">Home</Link>
       </div>
     );
   }
@@ -18,4 +18,4 @@ class Home extends Component {
 export default connect(
   null,
   actions
-)(Home);
+)(About);
